@@ -1,0 +1,52 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="Ru-UX2DQPc_inOabKuY1">
+    <mxGraphModel dx="779" dy="1338" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TCFe3XoGjgD3l8xnvh9l-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=20;" value="Activo" vertex="1">
+          <mxGeometry height="92" width="170" x="329" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="TCFe3XoGjgD3l8xnvh9l-2" parent="TCFe3XoGjgD3l8xnvh9l-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=20;" value="# numero:int" vertex="1">
+          <mxGeometry height="44" width="170" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TCFe3XoGjgD3l8xnvh9l-3" parent="TCFe3XoGjgD3l8xnvh9l-1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;labelPerimeter=1;" value="" vertex="1">
+          <mxGeometry height="8" width="170" y="84" as="geometry" />
+        </mxCell>
+        <mxCell id="TCFe3XoGjgD3l8xnvh9l-18" edge="1" parent="1" source="TCFe3XoGjgD3l8xnvh9l-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;defaultLabelBackgroundColor=gap;endArrow=block;endFill=0;" target="TCFe3XoGjgD3l8xnvh9l-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TCFe3XoGjgD3l8xnvh9l-5" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=20;" value="Hipoteca" vertex="1">
+          <mxGeometry height="282" width="226" x="114" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="TCFe3XoGjgD3l8xnvh9l-6" parent="TCFe3XoGjgD3l8xnvh9l-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=20;" value="- pareja&lt;div&gt;- valor_inicial&lt;/div&gt;&lt;div&gt;- fecha_otorgada&lt;/div&gt;&lt;div&gt;- cuota&lt;/div&gt;&lt;div&gt;- ingresos_semana&lt;/div&gt;&lt;div&gt;- impuesto&lt;/div&gt;&lt;div&gt;- seguro&lt;/div&gt;&lt;div&gt;- fecha_impuesto&lt;/div&gt;&lt;div&gt;- fecha_seguro&lt;/div&gt;" vertex="1">
+          <mxGeometry height="234" width="226" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TCFe3XoGjgD3l8xnvh9l-7" parent="TCFe3XoGjgD3l8xnvh9l-5" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;labelPerimeter=1;" value="" vertex="1">
+          <mxGeometry height="8" width="226" y="274" as="geometry" />
+        </mxCell>
+        <mxCell id="TCFe3XoGjgD3l8xnvh9l-19" edge="1" parent="1" source="TCFe3XoGjgD3l8xnvh9l-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;defaultLabelBackgroundColor=gap;endArrow=block;endFill=0;" target="TCFe3XoGjgD3l8xnvh9l-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TCFe3XoGjgD3l8xnvh9l-9" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=20;" value="Inversión" vertex="1">
+          <mxGeometry height="218" width="180" x="554" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="TCFe3XoGjgD3l8xnvh9l-10" parent="TCFe3XoGjgD3l8xnvh9l-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=20;" value="- entidad&lt;div&gt;- valor&lt;/div&gt;&lt;div&gt;- plazo&lt;/div&gt;&lt;div&gt;- interés&lt;/div&gt;&lt;div&gt;- fecha_inversión&lt;/div&gt;" vertex="1">
+          <mxGeometry height="170" width="180" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TCFe3XoGjgD3l8xnvh9l-11" parent="TCFe3XoGjgD3l8xnvh9l-9" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;labelPerimeter=1;" value="" vertex="1">
+          <mxGeometry height="8" width="180" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="TCFe3XoGjgD3l8xnvh9l-13" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=20;" value="MSGF" vertex="1">
+          <mxGeometry height="128" width="287" x="270.5" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TCFe3XoGjgD3l8xnvh9l-14" parent="TCFe3XoGjgD3l8xnvh9l-13" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=20;" value="- gastos_operacionales&lt;div&gt;- tasa_interés&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="287" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TCFe3XoGjgD3l8xnvh9l-15" parent="TCFe3XoGjgD3l8xnvh9l-13" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;labelPerimeter=1;" value="" vertex="1">
+          <mxGeometry height="8" width="287" y="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
